@@ -3767,9 +3767,9 @@
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CURRENT_PROJECT_VERSION = 46;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = "";
+				SDKROOT = macosx10.7;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -3780,8 +3780,8 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CURRENT_PROJECT_VERSION = 46;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				SDKROOT = "";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				SDKROOT = macosx10.7;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
